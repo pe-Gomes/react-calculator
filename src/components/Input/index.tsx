@@ -1,9 +1,12 @@
+import { InputHTMLAttributes } from "react";
 import { Container } from "./styles";
 
-export function Input() {
+interface Props extends InputHTMLAttributes<HTMLInputElement> {}
+
+export function Input({ value }: Props) {
   return (
     <Container>
-      <input type="text" />
+      <input type="text" disabled value={value} />
     </Container>
   );
 }

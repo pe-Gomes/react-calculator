@@ -21,6 +21,6 @@ export const Container = styled.div`
 
     width: 100%;
     height: inherit;
-    padding: 0 0.5rem;
+    padding: 0 1rem;
   }
 `;
