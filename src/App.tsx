@@ -1,9 +1,12 @@
-import { Container } from "./styles";
+import { Container, Content } from "./styles/styles";
+import { Input } from "./components/Input";
 
 function App() {
   return (
     <Container>
-      <div></div>
+      <Content>
+        <Input />
+      </Content>
     </Container>
   );
 }
